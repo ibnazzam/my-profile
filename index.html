@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>حماده عزام | الصفحة الشخصية</title>
+    <title>حماده حسين عزام | الصفحة الشخصية</title>
     <!-- استيراد خط تجوال العصري -->
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
     <!-- أيقونات FontAwesome -->
@@ -27,24 +27,26 @@
             padding: 80px 20px;
         }
         .profile-img {
-            width: 140px;
-            height: 140px;
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
             border: 4px solid white;
             object-fit: cover;
             margin-bottom: 20px;
             box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            background-color: #e2e8f0;
         }
         header h1 {
-            font-size: 2.5rem;
+            font-size: 2.4rem;
             margin-bottom: 10px;
             font-weight: 900;
         }
         header p {
-            font-size: 1.2rem;
-            opacity: 0.9;
-            max-width: 600px;
+            font-size: 1.15rem;
+            opacity: 0.95;
+            max-width: 700px;
             margin: 0 auto;
+            line-height: 1.6;
         }
         .container {
             max-width: 900px;
@@ -77,40 +79,43 @@
         }
         .skills-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
             gap: 15px;
             margin-top: 15px;
         }
         .skill-item {
             background: #f1f5f9;
-            padding: 12px 18px;
-            border-radius: 8px;
+            padding: 14px 18px;
+            border-radius: 10px;
             font-weight: 500;
             color: #334155;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
+            font-size: 1.05rem;
         }
         .skill-item i {
             color: #2563eb;
+            font-size: 1.2rem;
         }
         .social-links {
             display: flex;
             justify-content: center;
+            flex-wrap: wrap;
             gap: 15px;
-            margin-top: 30px;
+            margin-top: 25px;
         }
         .social-btn {
-            background: white;
+            background: #f1f5f9;
             color: #1e3a8a;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
+            padding: 12px 20px;
+            border-radius: 30px;
             display: flex;
             align-items: center;
-            justify-content: center;
-            font-size: 1.3rem;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            gap: 10px;
+            font-size: 1.05rem;
+            font-weight: 600;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
             transition: all 0.3s ease;
             text-decoration: none;
         }
@@ -130,49 +135,47 @@
 <body>
 
     <header>
-        <!-- استبدل الرابط أدناه برابط صورتك الشخصية إن أردت -->
-        <img src="https://via.placeholder.com/150" alt="صورة البروفايل" class="profile-img">
-        <h1>أبـو حسـين</h1>
-        <p>معلم لغتي الجميلة ومنسق لجنة رعاية الموهوبين | شغوف بالتعليم التقني وابتكار المحتوى التعليمي</p>
+        <!-- ضع رابط صورتك الشخصية المباشر مكان الرابط أدناه بين علامتي التنصيص -->
+        <img src="https://via.placeholder.com/150" alt="صورة الأستاذ حماده حسين عزام" class="profile-img">
+        <h1>حماده حسين عزام</h1>
+        <p>معلم ومدرب | مدرب قدرات لفظي - ومدرب على اختبار مقياس موهبة</p>
     </header>
 
     <div class="container">
         
-        <!-- نبذة عني -->
+        <!-- نبذة تعريفية -->
         <div class="card">
             <h2><i class="fa-solid fa-user-pen"></i> نبذة تعريفية</h2>
-            <p class="biotext">
-                أهلاً بك في صفحتي الشخصية الرسمية. أعمل معلماً ومربياً، وأهتم بتوظيف استراتيجيات التعلم الحديثة، التقنيات التعليمية، وأدوات الذكاء الاصطناعي لتطوير بيئة التعلم وتحفيز الموهوبين نحو التميز والإبداع.
+            <p class="bio-text">
+                أعمل معلماً ومدرباً، حاصل على ماجستير في التربية في اللغة العربية للناطقين بغيرها، وحاصل على رخصة مدرب مهنية. أحب الإبداع وأهوى الجديد ولي أمل في غد أفضل.
             </p>
         </div>
 
-        <!-- الخبرات والمهارات -->
+        <!-- مجالات الاهتمام والخبرة -->
         <div class="card">
             <h2><i class="fa-solid fa-graduation-cap"></i> مجالات الاهتمام والخبرة</h2>
             <div class="skills-grid">
-                <div class="skill-item"><i class="fa-solid fa-book-open"></i> تدريس لغتي المرحلة الابتدائية</div>
                 <div class="skill-item"><i class="fa-solid fa-lightbulb"></i> رعاية وتدريب الطلاب الموهوبين</div>
-                <div class="skill-item"><i class="fa-solid fa-laptop-code"></i> تطوير أدوات تعليمية رقمية</div>
-                <div class="skill-item"><i class="fa-solid fa-wand-magic-sparkles"></i> المحتوى التعليمي بالذكاء الاصطناعي</div>
+                <div class="skill-item"><i class="fa-solid fa-brain"></i> التدريب على اختبار القدرات (القسم اللفظي لطلاب وطالبات الثانوي)</div>
+                <div class="skill-item"><i class="fa-solid fa-book-quran"></i> الاهتمام بالقرآن الكريم؛ تلاوة ودراسة وتفسيراً</div>
             </div>
         </div>
 
         <!-- تواصل معي -->
         <div class="card">
             <h2><i class="fa-solid fa-share-nodes"></i> تواصل معي</h2>
-            <p class="bio-text" style="text-align: center; margin-bottom: 20px;">يسعدني التواصل والتعاون المستمر في المجالات التربوية والتقنية.</p>
+            <p class="bio-text" style="text-align: center; margin-bottom: 10px;">يسعدني التواصل والتعاون المستمر معكم.</p>
             <div class="social-links">
-                <a href="mailto:your-email@example.com" class="social-btn" title="البريد الإلكتروني"><i class="fa-solid fa-envelope"></i></a>
-                <a href="https://twitter.com" target="_blank" class="social-btn" title="تويتر / منصة إكس"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://linkedin.com" target="_blank" class="social-btn" title="لينكد إن"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://whatsapp.com" target="_blank" class="social-btn" title="واتساب"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="mailto:ibnnazzam84@gmail.com" class="social-btn"><i class="fa-solid fa-envelope"></i> البريد الإلكتروني</a>
+                <a href="https://wa.me/966539308156" target="_blank" class="social-btn"><i class="fa-brands fa-whatsapp"></i> واتساب</a>
+                <a href="https://twitter.com/ibnazam84" target="_blank" class="social-btn"><i class="fa-brands fa-x-twitter"></i> منصة إكس (X)</a>
             </div>
         </div>
 
     </div>
 
     <footer>
-        <p>جميع الحقوق محفوظة &copy; 2026 - تم التصميم بعناية</p>
+        <p>جميع الحقوق محفوظة &copy; 2026 - حماده حسين عزام</p>
     </footer>
 
 </body>
