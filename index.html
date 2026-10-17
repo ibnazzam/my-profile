@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حماده حسين عزام | الصفحة الشخصية</title>
+    <!-- استيراد خط تجوال العصري -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- أيقونات FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Tajawal', sans-serif;
+        }
+        body {
+            background-color: #f8fafc;
+            color: #1e293b;
+            line-height: 1.7;
+        }
+        header {
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            background-color: #e2e8f0;
+        }
+        header h1 {
+            font-size: 2.4rem;
+            margin-bottom: 10px;
+            font-weight: 900;
+        }
+        header p {
+            font-size: 1.15rem;
+            opacity: 0.95;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: -40px auto 40px;
+            padding: 0 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            margin-bottom: 25px;
+        }
+        .card h2 {
+            color: #1e3a8a;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 10px;
+        }
+        .card h2 i {
+            color: #3b82f6;
+        }
+        .bio-text {
+            font-size: 1.1rem;
+            color: #475569;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .skill-item {
+            background: #f1f5f9;
+            padding: 14px 18px;
+            border-radius: 10px;
+            font-weight: 500;
+            color: #334155;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.05rem;
+        }
+        .skill-item i {
+            color: #2563eb;
+            font-size: 1.2rem;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 25px;
+        }
+        .social-btn {
+            background: #f1f5f9;
+            color: #1e3a8a;
+            padding: 12px 20px;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.05rem;
+            font-weight: 600;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        .social-btn:hover {
+            background: #3b82f6;
+            color: white;
+            transform: translateY(-3px);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="my-photo.jpg" alt="حماده حسين عزام" class="profile-img">
+        <h1>حماده حسين عزام</h1>
+        <p>معلم ومدرب مهني | متخصص في رعاية الموهوبين والقدرات اللفظية</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- نبذة تعريفية -->
+        <div class="card">
+            <h2><i class="fa-solid fa-user-pen"></i> نبذة تعريفية</h2>
+            <p class="bio-text">
+                أعمل معلماً ومدرباً، حاصل على ماجستير في التربية، وحاصل على رخصة مدرب مهنية.
+            </p>
+        </div>
+
+        <!-- مجالات الاهتمام والخبرة والإنجازات -->
+        <div class="card">
+            <h2><i class="fa-solid fa-award"></i> مجالات الاهتمام والخبرة والإنجازات</h2>
+            <div class="skills-grid">
+                <div class="skill-item"><i class="fa-solid fa-lightbulb"></i> رعاية وتدريب الطلاب والطالبات الموهوبين</div>
+                <div class="skill-item"><i class="fa-solid fa-brain"></i> التدريب على اختبار القدرات العامة (قسم اللفظي)</div>
+                <div class="skill-item"><i class="fa-solid fa-trophy"></i> الحصول على درع وشهادة التميز فئة معلم موهوبين 2016 - إدارة تعليم الجوف</div>
+                <div class="skill-item"><i class="fa-solid fa-medal"></i> الحصول على درع وشهادة التميز فئة معلم مدرب 2017 - إدارة تعليم الجوف</div>
+                <div class="skill-item"><i class="fa-solid fa-users-gear"></i> عضو مؤسس باللجنة النقابية لمدربي التنمية البشرية من 2011م</div>
+            </div>
+        </div>
+
+        <!-- تواصل معي -->
+        <div class="card">
+            <h2><i class="fa-solid fa-share-nodes"></i> تواصل معي</h2>
+            <p class="bio-text" style="text-align: center; margin-bottom: 10px;">يسعدني التواصل والتعاون المستمر معكم.</p>
+            <div class="social-links">
+                <a href="mailto:ibnnazzam84@gmail.com" class="social-btn"><i class="fa-solid fa-envelope"></i> البريد الإلكتروني</a>
+                <a href="https://wa.me/966539308156" target="_blank" class="social-btn"><i class="fa-brands fa-whatsapp"></i> واتساب</a>
+                <a href="https://twitter.com/ibnazam84" target="_blank" class="social-btn"><i class="fa-brands fa-x-twitter"></i> منصة إكس (X)</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2026 - حماده حسين عزام</p>
+    </footer>
+
+</body>
+</html>
